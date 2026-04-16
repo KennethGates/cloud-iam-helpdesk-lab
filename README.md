@@ -2,8 +2,9 @@
 
 ![Status](https://img.shields.io/badge/Project-Complete-brightgreen)
 
-## 🔐 Overview
-This project aligns with real-world IAM responsibilities including access provisioning, identity governance, and enforcing Zero Trust security principles.
+## Overview
+
+This project simulates real-world IT help desk and Identity & Access Management (IAM) scenarios using Microsoft Entra ID. It demonstrates the full user identity lifecycle — onboarding, offboarding, password resets, and security group-based access provisioning — with a focus on the security controls and audit practices expected in enterprise cloud environments.
 
 ## Technologies Used
 
@@ -199,86 +200,3 @@ The full offboarding action is logged in the Entra ID Audit Log, providing a tim
 ## What I Learned
 
 Managing identities in Microsoft Entra ID goes beyond clicking through a portal — every action carries a security implication. The most important lesson from this lab was understanding that **blocking sign-in alone does not fully revoke access**; active tokens and sessions must be explicitly invalidated during offboarding to prevent residual access. I also learned why group-based access provisioning is preferred over direct assignment at scale — it simplifies access reviews, reduces human error, and makes least-privilege enforcement consistent. Finally, every action in Entra ID produces an audit log entry, and verifying those entries is part of the workflow, not an afterthought — it is how security teams demonstrate compliance and detect unauthorized changes.
-#### 📸 Screenshots
-
-**Step 1: Navigate to Groups in Microsoft Entra ID**  
-![Step 1](./images/ticket-1/ticket-3/3step1.png)
-
-**Step 2: Select the appropriate group (IT Team)**  
-![Step 2](./images/ticket-1/ticket-3/3step2.png)
-
-**Step 3: Review current group members**  
-![Step 3](./images/ticket-1/ticket-3/3step3.png)
-
-**Step 4: Add user to group**  
-![Step 4](./images/ticket-1/ticket-3/3step4.png)
-
-**Step 5: Confirm user successfully added to group**  
-![Step 5](./images/ticket-1/ticket-3/3step5.png)
-
-**Issue:** User required access to IT resources to perform job responsibilities.  
-
-**Resolution:** Added the user to the IT Team security group in Microsoft Entra ID to grant appropriate access permissions.  
-
-**Result:** User successfully gained access to required systems through group-based access control.
-
-### Ticket 4: User Onboarding (Account Creation + Group Assignment)
-
-#### 📸 Screenshots
-
-**Step 1: Navigate to Users in Microsoft Entra ID**  
-![Step 1](./images/ticket-1/ticket-4/4step1.png)
-
-**Step 2: Click "New user" to begin account creation**  
-![Step 2](./images/ticket-1/ticket-4/4step2.png)
-
-**Step 3: Enter basic user details (name, username, password)**  
-![Step 3](./images/ticket-1/ticket-4/4step3.png)
-
-**Step 4: Configure user properties (job title, department, company)**  
-![Step 4](./images/ticket-1/ticket-4/4step4.png)
-
-**Step 5: Review and create the new user account**  
-![Step 5](./images/ticket-1/ticket-4/4step5.png)
-
-**Step 6: Confirm user appears in directory**  
-![Step 6](./images/ticket-1/ticket-4/4step6.png)
-
-**Step 7: Navigate to Groups**  
-![Step 7](./images/ticket-1/ticket-4/4step7.png)
-
-**Step 8: Select appropriate department group**  
-![Step 8](./images/ticket-1/ticket-4/4step8.png)
-
-**Step 9: Add new user to group**  
-![Step 9](./images/ticket-1/ticket-4/4step9.png)
-
-**Step 10: Confirm user successfully added to group**  
-![Step 10](./images/ticket-1/ticket-4/4step10.png)
-
-**Issue:** A new employee required an account and access to company resources.  
-
-**Resolution:** Created a new user account in Microsoft Entra ID and assigned the user to the appropriate department security group.  
-
-**Result:** User account was successfully created and granted proper access based on role and group membership.
-
-## Key Concepts Demonstrated
-- Identity Management
-- Group-Based Access Control
-- User Onboarding
-- User Offboarding
-- Password Reset Support
-
-## 💼 Core Skills Demonstrated
-- Identity & Access Management (IAM)
-- User Lifecycle Management (Onboarding/Offboarding)
-- Role-Based Access Control (RBAC)
-- Microsoft Entra ID Administration
-- Help Desk Troubleshooting
-- Access Provisioning & Deprovisioning
-- 
-## What I Learned
-- How to manage users in Microsoft Entra ID
-- How to use groups for access control
-- How to support common help desk identity tasks
-- How IAM supports daily IT operations
