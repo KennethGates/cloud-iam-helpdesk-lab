@@ -56,10 +56,27 @@ Simulated real-world IT support and Identity & Access Management (IAM) tasks usi
 **Result:** Account access was successfully removed, preventing further login.
 
 
-### Ticket 3: Access Request Resolution
-**Issue:** User could not access required resources.  
-**Resolution:** Added the user to the appropriate security group.  
-**Result:** User gained the correct access.
+### Ticket 3: Access Request (Group-Based Access)
+
+#### 📸 Screenshots
+
+**Step 1: Locate user in Microsoft Entra ID**  
+![Step 1](./images/ticket-3/3step1.png)
+
+**Step 2: Navigate to user group memberships**  
+![Step 2](./images/ticket-3/3step2.png)
+
+**Step 3: Add user to appropriate group**  
+![Step 3](./images/ticket-3/3step3.png)
+
+**Step 4: Confirm user access via group membership**  
+![Step 4](./images/ticket-3/3step4.png)
+
+**Issue:** User required access to specific resources to perform job duties.  
+
+**Resolution:** Added the user to the appropriate security group in Microsoft Entra ID to grant required permissions.  
+
+**Result:** User successfully gained access to necessary resources through group-based access control.
 
 ### Ticket 4: New User Onboarding
 **Issue:** A new employee needed an account and access assigned.  
