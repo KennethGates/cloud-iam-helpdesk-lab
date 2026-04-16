@@ -1,7 +1,9 @@
 # Cloud IAM Help Desk Lab (Microsoft Entra ID)
 
 ## Overview
-This project simulates real-world IT support and Identity & Access Management (IAM) tasks using Microsoft Entra ID. The lab demonstrates user lifecycle management, access control, and common help desk operations in a cloud environment.
+## 🔐 Cloud IAM Help Desk Lab (Microsoft Entra ID)
+
+Simulated real-world IT support and Identity & Access Management (IAM) tasks using Microsoft Entra ID. This lab demonstrates user lifecycle management, password resets, account deactivation (offboarding), and group-based access control in a cloud environment.
 
 ## Technologies Used
 - Microsoft Entra ID
