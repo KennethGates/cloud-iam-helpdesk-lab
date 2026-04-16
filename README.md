@@ -18,14 +18,15 @@ This project simulates real-world IT support and Identity & Access Management (I
 ### Ticket 1: Password Reset Request
 #### 📸 Screenshots
 
-**Step 1: User account overview**
-![Step 1](images/ticket-1/Ticket_1_reset_Password_1.png)
 
-**Step 2: Initiating password reset**
-![Step 2](images/ticket-1/Ticket_1_reset_Password_2.png)
+**Step 1: User account overview**  
+![Step 1](./images/ticket-1/Ticket_1_reset_Password_1.png)
 
-**Step 3: Temporary password generated**
-![Step 3](images/ticket-1/Ticket_1_reset-Password_3.png)
+**Step 2: Initiating password reset**  
+![Step 2](./images/ticket-1/Ticket_1_reset_Password_2.png)
+
+**Step 3: Temporary password generated**  
+![Step 3](./images/ticket-1/Ticket_1_reset-Password_3.png)
 
 **Issue:** User was unable to log in due to a forgotten password.  
 **Resolution:** Reset the user password in Microsoft Entra ID and required password change at next login.  
