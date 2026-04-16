@@ -32,7 +32,6 @@ This project simulates real-world IT support and Identity & Access Management (I
 **Result:** User regained access successfully.
 
 ### Ticket 2: Account Deactivation (Offboarding)
-
 #### 📸 Screenshots
 
 **Step 1: Locate user in Microsoft Entra ID**  
