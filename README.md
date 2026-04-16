@@ -86,34 +86,34 @@ Simulated real-world IT support and Identity & Access Management (IAM) tasks usi
 #### 📸 Screenshots
 
 **Step 1: Navigate to Users in Microsoft Entra ID**  
-![Step 1](./images/ticket-4/4step1.png)
+![Step 1](./images/ticket-1/ticket-4/4step1.png)
 
 **Step 2: Click "New user" to begin account creation**  
-![Step 2](./images/ticket-4/4step2.png)
+![Step 2](./images/ticket-1/ticket-4/4step2.png)
 
 **Step 3: Enter basic user details (name, username, password)**  
-![Step 3](./images/ticket-4/4step3.png)
+![Step 3](./images/ticket-1/ticket-4/4step3.png)
 
 **Step 4: Configure user properties (job title, department, company)**  
-![Step 4](./images/ticket-4/4step4.png)
+![Step 4](./images/ticket-1/ticket-4/4step4.png)
 
 **Step 5: Review and create the new user account**  
-![Step 5](./images/ticket-4/4step5.png)
+![Step 5](./images/ticket-1/ticket-4/4step5.png)
 
 **Step 6: Confirm user appears in directory**  
-![Step 6](./images/ticket-4/4step6.png)
+![Step 6](./images/ticket-1/ticket-4/4step6.png)
 
 **Step 7: Navigate to Groups**  
-![Step 7](./images/ticket-4/4step7.png)
+![Step 7](./images/ticket-1/ticket-4/4step7.png)
 
 **Step 8: Select appropriate department group**  
-![Step 8](./images/ticket-4/4step8.png)
+![Step 8](./images/ticket-1/ticket-4/4step8.png)
 
 **Step 9: Add new user to group**  
-![Step 9](./images/ticket-4/4step9.png)
+![Step 9](./images/ticket-1/ticket-4/4step9.png)
 
 **Step 10: Confirm user successfully added to group**  
-![Step 10](./images/ticket-4/4step10.png)
+![Step 10](./images/ticket-1/ticket-4/4step10.png)
 
 **Issue:** A new employee required an account and access to company resources.  
 
