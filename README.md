@@ -61,19 +61,19 @@ Simulated real-world IT support and Identity & Access Management (IAM) tasks usi
 #### 📸 Screenshots
 
 **Step 1: Navigate to Groups in Microsoft Entra ID**  
-![Step 1](./images/ticket-3/3step1.png)
+![Step 1](./images/ticket-1/ticket-3/3step1.png)
 
 **Step 2: Select the appropriate group (IT Team)**  
-![Step 2](./images/ticket-3/3step2.png)
+![Step 2](./images/ticket-1/ticket-3/3step2.png)
 
 **Step 3: Review current group members**  
-![Step 3](./images/ticket-3/3step3.png)
+![Step 3](./images/ticket-1/ticket-3/3step3.png)
 
 **Step 4: Add user to group**  
-![Step 4](./images/ticket-3/3step4.png)
+![Step 4](./images/ticket-1/ticket-3/3step4.png)
 
 **Step 5: Confirm user successfully added to group**  
-![Step 5](./images/ticket-3/3step5.png)
+![Step 5](./images/ticket-1/ticket-3/3step5.png)
 
 **Issue:** User required access to IT resources to perform job responsibilities.  
 
