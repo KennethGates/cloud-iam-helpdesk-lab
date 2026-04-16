@@ -1,8 +1,9 @@
 # Cloud IAM Help Desk Lab (Microsoft Entra ID)
 
-## Overview
+![Status](https://img.shields.io/badge/Project-Complete-brightgreen)
 
-This project simulates real-world IT help desk and Identity & Access Management (IAM) scenarios using Microsoft Entra ID. It demonstrates the full user identity lifecycle — onboarding, offboarding, password resets, and security group-based access provisioning — with a focus on the security controls and audit practices expected in enterprise cloud environments.
+## 🔐 Overview
+This project aligns with real-world IAM responsibilities including access provisioning, identity governance, and enforcing Zero Trust security principles.
 
 ## Technologies Used
 
@@ -268,7 +269,7 @@ Managing identities in Microsoft Entra ID goes beyond clicking through a portal 
 - User Offboarding
 - Password Reset Support
 
-## 💼 Skills Demonstrated
+## 💼 Core Skills Demonstrated
 - Identity & Access Management (IAM)
 - User Lifecycle Management (Onboarding/Offboarding)
 - Role-Based Access Control (RBAC)
