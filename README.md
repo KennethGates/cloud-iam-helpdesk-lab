@@ -32,19 +32,20 @@ This project simulates real-world IT support and Identity & Access Management (I
 **Result:** User regained access successfully.
 
 ### Ticket 2: Account Deactivation (Offboarding)
+
 #### 📸 Screenshots
 
 **Step 1: Locate user in Microsoft Entra ID**  
-![Step 1](./images/ticket-2/2step1.png)
+![Step 1](./images/ticket-1/ticket-2/2step1.png)
 
 **Step 2: Review user account details**  
-![Step 2](./images/ticket-2/2step2.png)
+![Step 2](./images/ticket-1/ticket-2/2step2.png)
 
 **Step 3: Verify account is currently enabled**  
-![Step 3](./images/ticket-2/2step3.png)
+![Step 3](./images/ticket-1/ticket-2/2step3.png)
 
 **Step 4: Disable account by blocking sign-in**  
-![Step 4](./images/ticket-2/2step4.png)
+![Step 4](./images/ticket-1/ticket-2/2step4.png)
 
 **Issue:** An employee left the company and account access needed to be removed.  
 
